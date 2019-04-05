@@ -2,11 +2,11 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 * [CarInfo.cs](./CS/Model/CarInfo.cs) (VB: [CarInfoViewModel.vb](./VB/ViewModel/CarInfoViewModel.vb))
 * [ObservableObject.cs](./CS/ObservableObject.cs) (VB: [ObservableObject.vb](./VB/ObservableObject.vb))
 * [EditView.xaml](./CS/View/EditView.xaml) (VB: [EditView.xaml](./VB/View/EditView.xaml))
-* [EditView.xaml.cs](./CS/View/EditView.xaml.cs) (VB: [EditView.xaml](./VB/View/EditView.xaml))
+* [EditView.xaml.cs](./CS/View/EditView.xaml.cs) (VB: [EditView.xaml.vb](./VB/View/EditView.xaml.vb))
 * [CarInfoViewModel.cs](./CS/ViewModel/CarInfoViewModel.cs) (VB: [CarInfoViewModel.vb](./VB/ViewModel/CarInfoViewModel.vb))
 <!-- default file list end -->
 # DXRichEdit for WPF: Implementing MVVM
