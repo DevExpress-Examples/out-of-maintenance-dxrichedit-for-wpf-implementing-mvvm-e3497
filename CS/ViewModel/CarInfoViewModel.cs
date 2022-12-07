@@ -22,8 +22,8 @@ namespace RichEditMVVMScenarioWpf.ViewModel {
             name = model.Name;
             description = model.Description;
 
-            LoadCommand = new DevExpress.Xpf.Mvvm.DelegateCommand<object>(LoadCommandExecute);
-            SaveCommand = new DevExpress.Xpf.Mvvm.DelegateCommand<object>(SaveCommandExecute);
+            LoadCommand = new DevExpress.Mvvm.DelegateCommand<object>(LoadCommandExecute);
+            SaveCommand = new DevExpress.Mvvm.DelegateCommand<object>(SaveCommandExecute);
         }
 
         private string name;

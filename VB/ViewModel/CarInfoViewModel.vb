@@ -24,8 +24,8 @@ Namespace RichEditMVVMScenarioWpf.ViewModel
 			name_Renamed = model.Name
 			description_Renamed = model.Description
 
-			LoadCommand = New DevExpress.Xpf.Mvvm.DelegateCommand(Of Object)(AddressOf LoadCommandExecute)
-			SaveCommand = New DevExpress.Xpf.Mvvm.DelegateCommand(Of Object)(AddressOf SaveCommandExecute)
+			LoadCommand = New DevExpress.Mvvm.DelegateCommand(Of Object)(AddressOf LoadCommandExecute)
+			SaveCommand = New DevExpress.Mvvm.DelegateCommand(Of Object)(AddressOf SaveCommandExecute)
 		End Sub
 
 		Private name_Renamed As String
